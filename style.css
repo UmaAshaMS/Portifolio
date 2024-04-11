@@ -544,6 +544,20 @@ form {
 }
 
 
+.contact-form-container input {
+width: 35%;
+height: 60%;
+border-radius: 5px;
+border-color:  rgb(53, 53, 53);
+}
+
+#message {
+  width: 35%;
+  height: 60%;
+  border-radius: 5px;
+  border-color:  rgb(53, 53, 53);
+  }
+
 /* FOOTER SECTION */
 
 footer {

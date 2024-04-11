@@ -61,7 +61,7 @@
     }
     footer nav {
       height: fit-content;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     }
     .about-containers,
     .contact-info-upper-container,
@@ -85,6 +85,11 @@
       flex-direction: column;
       gap: 0.5rem;
       text-align: center;
+      display: none;
+      
+    }
+    .footer p {
+      display: none;
     }
     .section__pic-container {
       width: auto;
@@ -130,6 +135,8 @@
     width: 50px; /* Adjust icon size */
     height: 50px;
   }
+
+
 }
 
 /* For screens smaller than 768px (e.g., tablets and phones) */
