@@ -21,3 +21,21 @@ form.addEventListener('submit', e => {
     .catch(error => console.error('Error!', error.message))
 
 })
+
+
+document.getElementById("submit-button").addEventListener("click", function() {
+  // Get the value of the input field
+  var Name = document.getElementById("name").value;
+
+  // Regular expression pattern to match alphabetic characters only
+  var pattern = /^[A-Za-z]+$/;
+
+  // Test if the name matches the pattern
+  if (pattern.test(Name)) {
+      console.log("Name contains only alphabetic characters.");
+  } else {
+    console.log("Non alphabetic name")
+      alert("Name contains non-alphabetic characters.");
+  }
+});
+
