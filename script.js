@@ -9,7 +9,7 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbzn58SLHjTo6AVa9kpqdA
 
 const form = document.forms['submit-to-google-sheet']
 
-
+//Form submission
 form.addEventListener('submit', e => {
 
   e.preventDefault()
@@ -22,7 +22,7 @@ form.addEventListener('submit', e => {
 
 })
 
-
+//Validation
 document.getElementById("submit-button").addEventListener("click", function() {
   // Get the value of the input field
   var Name = document.getElementById("name").value;
